@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kira Foxing Studio — Logos Pré-Prontas</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&family=Rock+Salt&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Kira Foxing Studio — Logos pré-prontas com estética de selo artesanal. Escolha e reserve a sua.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Substitua por sua SVG/PNG real em /assets/logo.png -->
+      <a href="/" class="logo-link" aria-label="Kira Foxing Studio">
+        <img src="assets/logo-mark.png" alt="Kira Foxing Studio logo" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-main">KIRA FOXING</span>
+          <span class="logo-sub">Studio</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#portfolio">Portfólio</a>
+        <a href="#how">Como funciona</a>
+        <a href="#contact" class="btn-outline">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-title">Logos pré-prontas <span class="hero-accent">exclusivas</span></h1>
+          <p class="hero-lead">Identidades visuais prontas para uso — únicas, profissionais e com a estética de selo artesanal.</p>
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn-primary">Ver Coleção</a>
+            <a href="#contact" class="btn-ghost">Reservar por DM</a>
+          </div>
+        </div>
+
+        <div class="hero-preview" aria-hidden="true">
+          <!-- Substitua por um mockup da sua logo ou mantenha o placeholder -->
+          <img src="assets/preview-sample.png" alt="" class="preview-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio grid -->
+    <section id="portfolio" class="section container">
+      <h2 class="section-title">Portfólio</h2>
+      <p class="section-sub">Clique em um item para ver variações e mockups.</p>
+
+      <div class="grid-logos">
+        <!-- Replique este bloco para cada logo pré-pronta -->
+        <article class="card-logo">
+          <div class="card-media">
+            <img src="assets/logo1.png" alt="Logo 1 — placeholder" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Coleção A — Fox Mark</h3>
+            <p class="card-text">Logotipo minimal com selo inspirado em xilogravura. Inclui variações e mockups.</p>
+            <div class="card-actions">
+              <a href="#" class="btn-sm">Ver detalhes</a>
+              <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener" class="btn-outline">Comprar / DM</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card-logo">
+          <div class="card-media">
+            <img src="assets/logo2.png" alt="Logo 2 — placeholder" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Coleção B — Seal</h3>
+            <p class="card-text">Versão tipográfica e ícone pronto para impressão e web.</p>
+            <div class="card-actions">
+              <a href="#" class="btn-sm">Ver detalhes</a>
+              <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener" class="btn-outline">Comprar / DM</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Adicione mais cards conforme precisar -->
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title">Como funciona</h2>
+        <ol class="steps">
+          <li><strong>Escolha</strong> a logo que você gosta.</li>
+          <li><strong>Compra</strong> via DM ou link (pagamento/transferência).</li>
+          <li><strong>Entrega</strong> em arquivos editáveis (SVG, PNG, JPG) e guia curto.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section id="contact" class="section cta">
+      <div class="container cta-inner">
+        <div>
+          <h3 class="cta-title">Quer sua logo exclusiva hoje?</h3>
+          <p class="cta-text">Envie uma mensagem no Instagram e eu te passo opções, preços e personalização rápida.</p>
+        </div>
+        <div>
+          <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener" class="btn-primary">Enviar DM</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Kira Foxing Studio — Logos pré-prontas</small>
+      <div class="footer-links">
+        <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
